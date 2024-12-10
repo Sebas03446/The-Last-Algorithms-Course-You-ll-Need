@@ -20,6 +20,3 @@ def test_binary_search_single():
     assert binary_search.binary_search(foo, 1) == True
     assert binary_search.binary_search(foo, 0) == False
     assert binary_search.binary_search(foo, 2) == False
-
-if __name__ == "__main__":
-    pytest.main()
